@@ -17,7 +17,7 @@ Even after a power reset, the votes are preserved in EEPROM and can be retrieved
 
 ## 🛠️ Hardware Requirements
 - PIC16F877A Microcontroller  
-- 16 MHz Crystal Oscillator  
+- 6 MHz Crystal Oscillator  
 - 16x2 LCD Display  
 - Push Buttons for inputs  
 - External EEPROM (24C02 / 24C04 / 24C08 etc.)  
@@ -50,8 +50,8 @@ Even after a power reset, the votes are preserved in EEPROM and can be retrieved
 ---
 
 ## 📂 File Structure
-┣ 📜 main.c # Main program file
-┣ 📜 README.md # Project documentation
+- ┣📜 main.c # Main program file
+- ┣📜 README.md # Project documentation
 
 
 ---
@@ -74,8 +74,8 @@ Even after a power reset, the votes are preserved in EEPROM and can be retrieved
 
 ---
 
-## 📸 Simulation / Hardware Setup
-(Add Proteus simulation screenshot or hardware circuit photo here)  
+## 📸 Simulation / Hardware Setup 
+<img width="974" height="557" alt="Screenshot from 2025-09-07 15-32-11" src="https://github.com/user-attachments/assets/1cd77622-ea81-4339-98b2-362114bc92d4" />
 
 ---
 
