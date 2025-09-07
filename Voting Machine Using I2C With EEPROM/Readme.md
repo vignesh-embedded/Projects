@@ -27,3 +27,29 @@ The system is designed and simulated in **Proteus** and coded in **C** using **M
 ---
 
 ## 📂 Folder Structure
+Voting machine/
+│── main.c # Source code (PIC16F877A, MPLAB)
+│── voting_machine.pdsprj # Proteus simulation project
+│── output.png # Simulation output screenshot
+│── README.md # Documentation
+
+
+---
+
+## 🚀 How to Run
+1. Open `voting_machine.pdsprj` in **Proteus**.  
+2. Load the compiled `.hex` file from MPLAB into the PIC16F877A in Proteus.  
+3. Run the simulation.  
+4. Use the keypad to cast votes.  
+5. LCD will display candidate votes and results.
+
+---
+
+## 📸 Simulation Output
+![Simulation Output](output.png)
+
+---
+
+## 👤 Author
+Developed by Vignesh (ECE - 2025) as part of embedded systems learning.
+
