@@ -30,7 +30,7 @@ Even after a power reset, the votes are preserved in EEPROM and can be retrieved
 - **PORTB** → Input buttons for voting and actions  
 - **PORTC & PORTD** → LCD data & control lines  
 - **SCL, SDA** → I2C communication with EEPROM  
-- **Crystal** → 16 MHz (for stable I2C operation)  
+- **Crystal** → 6 MHz (for stable I2C operation)  
 
 ---
 
