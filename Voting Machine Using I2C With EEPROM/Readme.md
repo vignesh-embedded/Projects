@@ -1,4 +1,4 @@
-# Voting Machine (PIC16F877A + LCD + Keypad)
+# Voting Machine (PIC16F877A + LCD + Button Input + EEPROM)
 
 ## 📌 Project Overview
 This project implements a simple **Electronic Voting Machine** using the **PIC16F877A microcontroller**.  
