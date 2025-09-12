@@ -50,19 +50,12 @@ The project was developed using **MPLAB IDE with XC8 compiler** and tested in **
 ## 📜 Code Overview
 - **main.c**  
   Initializes peripherals, reads time/date from DS1307, and displays them on LCD.  
-- **i2c.c / i2c.h**  
-  Implements I2C protocol functions (`I2C_Init`, `I2C_Start`, `I2C_Write`, `I2C_Read`, etc.).  
-- **lcd.c / lcd.h**  
-  Provides functions to initialize and control the LCD in 4-bit mode.  
-- **ds1307.c / ds1307.h**  
-  Provides RTC read/write functions for time and date.
-
 ---
 
 ## 🔧 How It Works
 1. **Initialization**  
    - I2C is initialized at 100 kHz.  
-   - LCD is initialized in 4-bit mode.  
+   - LCD is initialized in 8-bit mode.  
 
 2. **RTC Communication**  
    - DS1307 continuously keeps track of time and date.  
@@ -82,7 +75,7 @@ The project was developed using **MPLAB IDE with XC8 compiler** and tested in **
 | | | RTC |
 +-------------+ +-------+
 |
-| 4-bit Data + Control
+| 8-bit Data + Control
 v
 +---------+
 | LCD16x2|
@@ -94,12 +87,17 @@ v
 - LCD will show live **time** and **date**.  
 - You can adjust DS1307 registers to test different times/dates.  
 
-*(Insert Screenshot or GIF here)*
+<img width="1123" height="561" alt="Screenshot from 2025-09-12 18-58-49" src="https://github.com/user-attachments/assets/c23c32d0-92cd-43cb-8e1c-344bc03a678d" />
 
 ---
 
-## 📂 Repository Structure
+## 📖 References
+- PIC16F877A Datasheet – [Microchip](https://ww1.microchip.com/downloads/en/DeviceDoc/39582b.pdf)  
+- DS1307 RTC Datasheet – [Maxim Integrated](https://datasheets.maximintegrated.com/en/ds/DS1307.pdf)  
+- LCD16x2 Interfacing Guide  
 
-![Uploading Screenshot from 2025-09-12 18-58-49.png…]()
+---
 
-
+## 👨‍💻 Author
+**Vignesh V**  
+Final Year ECE Student | Embedded Systems Enthusiast 
