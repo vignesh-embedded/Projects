@@ -36,13 +36,13 @@ The project was developed using **MPLAB IDE with XC8 compiler** and tested in **
 
 ## 🔗 Pin Connections
 
-| Component       | Pin on PIC16F877A | Notes                        |
+| Component       | Pin on PIC16F877A | Notes                       |
 |-----------------|------------------|------------------------------|
 | DS1307 SDA      | RC4 (SDA)        | I2C Data line (with pull-up) |
 | DS1307 SCL      | RC3 (SCL)        | I2C Clock line (with pull-up)|
-| LCD RS          | RD0              | Control pin                  |
-| LCD EN          | RD1              | Enable pin                   |
-| LCD D4 - D7     | RD2 - RD5        | Data pins (4-bit mode)       |
+| LCD RS          | RC2              | Control pin                  |
+| LCD EN          | RC1              | Enable pin                   |
+| LCD             | RD0 - RD7        | Data pins (8-bit mode)       |
 | VCC, GND        | +5V, GND         | Power supply                 |
 
 ---
@@ -101,3 +101,4 @@ v
 ## 👨‍💻 Author
 **Vignesh V**  
 Final Year ECE Student | Embedded Systems Enthusiast 
+
