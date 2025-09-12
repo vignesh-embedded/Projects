@@ -10,7 +10,7 @@ The project was developed using **MPLAB IDE with XC8 compiler** and tested in **
 - Displays **Time** in `HH:MM:SS` format.
 - Displays **Date** in `DD:MM:YY` format.
 - Uses **I2C communication** between PIC16F877A and DS1307 RTC.
-- LCD16x2 interface in **4-bit mode** for efficient pin usage.
+- LCD16x2 interface in **8-bit mode**.
 - Written in **embedded C (XC8)** with modular, easy-to-read code.
 - Fully **simulated in Proteus** before hardware implementation.
 
@@ -20,9 +20,9 @@ The project was developed using **MPLAB IDE with XC8 compiler** and tested in **
 - PIC16F877A Microcontroller
 - DS1307 RTC (Real-Time Clock IC)
 - 32.768 kHz Crystal for DS1307
-- CR2032 Battery (for RTC backup)
+- CR2032 Battery (for RTC backup) (Used For Hardware)
 - LCD16x2 Display
-- Pull-up Resistors (4.7kΩ for SDA & SCL lines)
+- Pull-up Resistors (10 kΩ for SDA & SCL lines)
 - Power Supply (5V regulated)
 
 ---
@@ -101,4 +101,5 @@ v
 ## 📂 Repository Structure
 
 ![Uploading Screenshot from 2025-09-12 18-58-49.png…]()
+
 
